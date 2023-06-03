@@ -4,3 +4,32 @@ body{
     padding: 0;
     background-color: rgb(32, 32, 32);
 }
+.nav{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+    margin-top: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: #F3EFF5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #73d5ff;   
+}
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    height:750px;
+}
+.menu{
+    float: right;
+    margin: 40px;
+    margin-right: 140px;
+    height: auto;
+    width: 25%;
+    border-radius: 5%;
+}
