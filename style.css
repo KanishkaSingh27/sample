@@ -21,25 +21,57 @@ body{
     text-decoration-color: #73d5ff;   
 }
 .banner{
-    width: 100%;
     margin: 0 auto;
     max-width: 100%;
-    height: auto;
-    
+   
+     width: 100%;
+    height: 700px;
+ opacity: 0.5;
 }
-.menu{
+#home{
+    height: 60em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img {
+    
+  
     float: right;
     margin: 40px;
     margin-right: 140px;
     height: auto;
-    width: 25%;
+    width: 100%;
     border-radius: 5%;
 }
+
+.container p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .container img {
+        width: auto;
+        height: 100%;
+        
+    }
+
+}
+
 p{
     float: left;
     color: white;
     font-size: 1.2vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'poppins', sans-serif;
     padding-left: 8%;
     padding-top: 80px;
     margin: 40px;
